@@ -1,4 +1,4 @@
-"test
+autocmd VimLeave * silent !echo -ne "\e[6 q"
 set number relativenumber
 set nu rnu
 set nocompatible
